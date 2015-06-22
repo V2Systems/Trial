@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.sikuli:sikuli-script:latest">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sikuli/sikuli-script/latest/sikuli-script-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sikuli/sikuli-script/latest/sikuli-script-latest-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sikuli/sikuli-script/latest/sikuli-script-latest-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

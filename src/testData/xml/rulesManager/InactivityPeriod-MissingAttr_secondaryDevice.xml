@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schedule xmlns="urn:scte:118:version01" xmlns:ns2="urn:nds:dynamic:ruleManagerICD:01:01" begDateTime="2015-03-10T10:24:58.900Z" broadcastDate="20150310" endDateTime="2015-03-11T10:24:58.900Z" level="0" networkName="MAH" revision="1" schemaVersion="http://www.scte.org/documents/pdf/standards/ANSI_SCTE_118_3_2006.pdf" zoneName="BSKYB">
+	<Window windowDuration="02000000" windowStart="2015-03-10T10:06:58.899Z">
+		<Avail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" availId="516613369" availInWindow="1" availStart="2015-03-10T10:24:58.899Z" breakId="1" durationFrames="0" durationSeconds="30" eventKey="516613369" framesPerSecond="25Frames" xsi:type="ns2:NDSAvailType">
+			<Spot eventType="LOI" length="00003000" lengthFrames="0" positionInAvail="1" spotId="1" trafficId="1" xsi:type="ns2:SpotRulesType">
+				<ns2:substitutionOptionSlot>
+					<ns2:adInSpot>
+						<ns2:campaignRef>
+							<ns2:campaignIdRef>90000</ns2:campaignIdRef>
+							<ns2:clashData clashCount="1" clashGroup="1"/>
+						</ns2:campaignRef>
+					</ns2:adInSpot>
+				</ns2:substitutionOptionSlot>
+			</Spot>
+			<ns2:inactivityTime primaryDevice="10800"/>
+		</Avail>
+	</Window>
+</Schedule>
